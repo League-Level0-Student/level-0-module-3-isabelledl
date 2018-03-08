@@ -11,13 +11,15 @@ public class ShinyObjects {
 	public static void main(String[] args) {
 
 		// 2. Ask the user how many shiny objects they want
-
+for (int i = 1; i < 1000; i++) {playMisterZee();
+	
+}
 		// 3. Play the sound that many times
 
 		// 1. Call the method below
-
+	
+	
 	}
-
 	public static void playMisterZee() {
     	try {
  
