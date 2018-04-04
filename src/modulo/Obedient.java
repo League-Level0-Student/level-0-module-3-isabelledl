@@ -8,7 +8,7 @@ public class Obedient {
 	public static void main(String[] args) {
 		Obedient cat =new Obedient();
 //cat.drawStar();
-cat.drawShape(300);
+cat.drawShape(360);
 	}
 
 	void drawStar() {
@@ -33,6 +33,13 @@ cat.drawShape(300);
 		for (int i = 0; i < sides; i++) {
 			art.move(500/sides);
 			art.turn(360/sides);
+			art.setSpeed(100);
+			art.move(100);
+			art.turn(90);
+			art.move(100);
+			art.turn(144);
+
+
 		}
 	}
 	}
